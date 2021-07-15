@@ -32,7 +32,12 @@ Service Template
 *****
 
 1. Place service64.exe in ‘C:\Temp’.
-2. Open command prompt at type: reg add HKLM\SYSTEM\CurrentControlSet\services\regsvc /v ImagePath /t REG_EXPAND_SZ /d c:\temp\service64.exe /f
+2. Open command prompt at type: 
+   
+
+        reg add HKLM\SYSTEM\CurrentControlSet\services\regsvc /v ImagePath /t REG_EXPAND_SZ /d c:\temp\service64.exe /f
+
+
 3. In the command prompt type:
    
 
